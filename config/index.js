@@ -12,7 +12,7 @@ module.exports = {
     assetsPublicPath: '/',
     proxyTable: {
       '/proxy': {  //使用"/api"来代替"http://f.apiplus.c" 
-        target: 'http://localhost:8080/', //源地址 
+        target: 'http://localhost:8201/', //源地址 
         changeOrigin: true, //改变源 
         pathRewrite: { 
           '^/proxy': '' //路径重写 
